@@ -86,7 +86,7 @@ local Tab39 = Tab("FE")
 local Tab40 = Tab("其他脚本")
 local Tab41 = Tab("游戏脚本")
 
-Button(Tab1, "飞行", function() loadstring(game:HttpGet("https://pastebin.com/raw/gqv7PXAa"))() end)
+Button(Tab1, "飞行", function() loadstring(game:HttpGet'https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt')() end)
 Slider(Tab1, "移动速度", 1, 600, game.Players.LocalPlayer.Character.Humanoid.WalkSpeed, function(a) game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = a end)
 Slider(Tab1, "跳跃高度", 1, 600, game.Players.LocalPlayer.Character.Humanoid.JumpPower, function(a) game.Players.LocalPlayer.Character.Humanoid.JumpPower = a end)
 Slider(Tab1, "重力设置", -50, 400, workspace.Gravity, function(a) workspace.Gravity = a end)
