@@ -117,7 +117,7 @@ Button(Tab1, "跟踪玩家", function()loadstring(game:HttpGet("https://pastebin
 Button(Tab1,"踏空行走", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/Float'))()end)
 Button(Tab1,"转起来", function()loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0'))()end)
 Button(Tab1,"隐身", function()loadstring(game:HttpGet("https://gist.githubusercontent.com/skid123skidlol/cd0d2dce51b3f20ad1aac941da06a1a1/raw/f58b98cce7d51e53ade94e7bb460e4f24fb7e0ff/%257BFE%257D%2520Invisible%2520Tool%2520(can%2520hold%2520tools)"))()end)
-Button(Tab1,"透视", function()loadstring(game:HttpGet('https://raw.githubusercontent.com/cool83birdcarfly02six/UNIVERSALESPLTX/main/README.md'))()end)
+Button(Tab1,"透视", function()loadstring(game:HttpGet(('https://raw.githubusercontent.com/cool83birdcarfly02six/UNIVERSALESPLTX/main/README.md'),true))()end)
 Button(Tab1,"聊天绕过", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/BingusWR/Fechatbypassroblox/refs/heads/main/Fe%20Roblox%20ChatBypass"))()end)
 Button(Tab1,"帽子旋转", function()loadstring(game:HttpGet("https://raw.githubusercontent.com/BingusWR/Fe-Spinning-Hat-Script/refs/heads/main/Fe%20Spinning%20Hats%20Script"))()end)
 Button(Tab1,"r15变r6", function()loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-R6-Animations-on-R15-16865"))()end)
