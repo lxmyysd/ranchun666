@@ -3,12 +3,13 @@ local WindUI = loadstring(game:HttpGet("https://github.com/Footagesus/WindUI/rel
 local Window = WindUI:CreateWindow({
   Title = "CyOvO Script",
   Icon = "door-open",
-  Author = "Cynic TEAM",
+  Author = "Cynic Team",
   Folder = "CloudHub",
   Size = UDim2.fromOffset(560, 360),
   Transparent = true,
   Theme = "Dark",
-  User = {Enabled = true, -- <- or false
+  User = {
+    Enabled = true, -- <- or false
     Callback = function() print("clicked") end, -- <- optional
     Anonymous = true -- <- or true
   },
